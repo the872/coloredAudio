@@ -6,11 +6,9 @@ import {Tech} from "./tech/Tech";
 export function App() {
     return (
         <div className="app">
-            <h2 className="title">project-name</h2>
+            <h2 className="title">Colored Audio</h2>
             <div className="logo"><img src={logo} height="150px" alt="logo"/></div>
             <div>
-                This project is generated with <b><a
-                href="https://github.com/shpota/goxygen">goxygen</a></b>.
                 <p/>The following list of technologies comes from
                 a REST API call to the Go-based back end. Find
                 and change the corresponding code
